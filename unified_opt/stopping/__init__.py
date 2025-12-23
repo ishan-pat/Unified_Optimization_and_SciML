@@ -1,0 +1,2 @@
+"""Stopping criteria for optimization."""
+
