@@ -4,9 +4,9 @@
 
 > **This is not another optimizer library.** This is a **new intellectual layer** that treats optimization algorithms as structured compositions of mathematical primitives, enabling research-level introspection, differentiable optimization, and algorithmic innovation.
 
-## 🎯 Core Intellectual Claim
+## Core Intellectual Claim
 
-**We expose the mathematical structure of optimization itself.**
+**Expose the mathematical structure of optimization itself.**
 
 Instead of black-box optimizers (`optimizer.optimize(f)`), we provide:
 
@@ -20,7 +20,7 @@ This bridges the gap between **how optimization is described in papers** and **h
 
 ---
 
-## 🚀 Elite Capabilities
+## Capabilities
 
 ### 1. Algorithms as First-Class Composable Objects
 
@@ -112,7 +112,7 @@ x_opt, lambda_opt = bilevel_optimization(
 
 ---
 
-## 📚 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -137,7 +137,7 @@ result = optimizer.optimize(objective, jnp.array([0.0, 0.0]))
 print(f"Solution: {result.x}")
 ```
 
-### Elite Usage (Program Composition)
+### Advanced Usage (Program Composition)
 
 ```python
 from unified_opt.core.program import OptimizationProgram
@@ -158,7 +158,7 @@ grad = program.differentiate(x0, outer_objective_fn)
 
 ---
 
-## 🔬 Research Examples
+## Research Examples
 
 ### Bilevel Optimization
 
@@ -178,7 +178,7 @@ Use optimization as a differentiable layer in neural networks (equilibrium netwo
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Abstractions
 
@@ -207,9 +207,9 @@ OptimizationProgram
 
 ---
 
-## 🎓 What Makes This Elite
+## What Makes This Different
 
-### ❌ What Other Libraries Do
+### What Other Libraries Do
 
 - Expose optimizers as opaque functions
 - Hide algorithm structure
@@ -217,7 +217,7 @@ OptimizationProgram
 - No state introspection
 - Curvature is implicit or missing
 
-### ✅ What This Library Does
+### What This Library Does
 
 - **Exposes algorithm structure** as composable operators
 - **Unifies methods** via curvature abstraction
@@ -227,7 +227,7 @@ OptimizationProgram
 
 ---
 
-## 🚧 Status
+## Status
 
 This is a **research-grade framework** designed for:
 
@@ -247,11 +247,9 @@ This is a **research-grade framework** designed for:
 
 ---
 
-## 🎯 Positioning
+## Positioning
 
-**"A unifying framework for first- and second-order optimization that exposes the mathematical structure of algorithms, enabling research-level introspection and differentiable optimization."**
-
-This is how optimization **should** be done in 2024.
+**"A framework for first- and second-order optimization that exposes the mathematical structure of algorithms, enabling research-level introspection and differentiable optimization."**
 
 ---
 
