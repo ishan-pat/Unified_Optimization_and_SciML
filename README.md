@@ -108,7 +108,7 @@ x_opt, lambda_opt = bilevel_optimization(
 # Enables meta-learning, hyperparameter tuning, etc.
 ```
 
-**This is catnip for MIT / Cornell faculty** — enables bilevel optimization, meta-learning, implicit neural layers.
+Enables bilevel optimization, meta-learning, implicit neural layers.
 
 ---
 
