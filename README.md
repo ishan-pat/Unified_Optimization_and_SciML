@@ -2,7 +2,7 @@
 
 **Optimization as program composition — a unifying framework for first- and second-order methods**
 
-> **This is not another optimizer library.** This is a **new intellectual layer** that treats optimization algorithms as structured compositions of mathematical primitives, enabling research-level introspection, differentiable optimization, and algorithmic innovation.
+> **This is not another optimizer library.** This is a **new layer** that treats optimization algorithms as structured compositions of mathematical primitives, enabling research-level introspection, differentiable optimization, and algorithmic innovation.
 
 ## Core Intellectual Claim
 
