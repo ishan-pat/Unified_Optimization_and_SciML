@@ -1,8 +1,8 @@
 # Research-Grade Examples
 
-These examples demonstrate **how this library changes traditional approaches** to optimization in research and practice.
+These examples demonstrate how this library approaches optimization in research and practice.
 
-## 🎯 Key Themes
+## Key Themes
 
 Each example shows a fundamental shift from traditional frameworks:
 
@@ -14,7 +14,7 @@ Each example shows a fundamental shift from traditional frameworks:
 
 ---
 
-## 📚 Examples
+## Examples
 
 ### 1. Physics-Informed Neural Networks (PINNs)
 **File:** `physics_informed_neural_networks.py`
@@ -91,7 +91,7 @@ Each example shows a fundamental shift from traditional frameworks:
 
 ---
 
-## 🚀 How These Change Traditional Frameworks
+## How These Change Traditional Frameworks
 
 ### Before (Traditional)
 - **Constraints:** Penalty methods (approximate)
@@ -100,7 +100,7 @@ Each example shows a fundamental shift from traditional frameworks:
 - **Meta-learning:** Approximations (inaccurate)
 - **Large-scale:** Explicit matrices (memory-limited)
 
-### After (Our Framework)
+### After (This Framework)
 - **Constraints:** Exact satisfaction via optimization layers
 - **Adversarial training:** Bilevel optimization (optimal, fast)
 - **PDE-constrained:** Automatic differentiation through PDE solve
@@ -109,7 +109,7 @@ Each example shows a fundamental shift from traditional frameworks:
 
 ---
 
-## 🔬 Research Applications
+## Research Applications
 
 These examples enable new research directions:
 
@@ -121,7 +121,7 @@ These examples enable new research directions:
 
 ---
 
-## 💡 Key Innovations
+## Key Innovations
 
 1. **Optimization as differentiable layer:** Not just a function call
 2. **Exact vs approximate:** Constraints satisfied exactly
@@ -129,5 +129,4 @@ These examples enable new research directions:
 4. **Bilevel optimization:** End-to-end differentiation
 5. **Composable:** Swap algorithms without rewriting code
 
-These examples aren't toy problems—they're **research-grade applications** that demonstrate fundamental improvements over traditional approaches.
 
